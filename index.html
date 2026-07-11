@@ -7,20 +7,26 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header class="nav">
-    <div class="logo">
-        <img src="./img/LOGO.svg" alt="">
-    </div>
-        <ul class="nav__ul">
-            <li class="head__li"><a href="#"></a>NHL</li>
-            <li class="head__li"><a href="#"></a>DAYTONA </li>
-            <li class="head__li"><a href="#"></a>NBA</li>
-            <li class="head__li"><a href="#"></a>Brands</li>
-        </ul>
-    <div class="nav-right">
-        <button class="signin-btn">SIGN IN</button>
-    </div>
+    <header class="header">
+  <div class="logo">
+    <img src="./img/LOGO_dark background.svg" alt="">
+  </div>
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <nav class="navbar" id="navbar">
+    <ul>
+      <li><a href="./index.html">HOME</a></li>
+      <li><a href="./daytona.html">DAYTONA</a></li>
+      <li><a href="./nba.html">NBA</a></li>
+    </ul>
+  </nav>
+  <a href="./button.html" class="signin">SIGN IN</a>
 </header>
+<script src="./app.js"></script>
 <section class="hero">
     <div class="contents">
       <h1>Share or discover<br>the best sports content</h1>
@@ -35,20 +41,16 @@
         <span>FEATURED</span>
         <h1>Top Stories</h1>
     </div>
-
     <div class="content">
         <div class="main-story">
             <img src="./img/FeaturedCardImage (1).png"
                 alt="football">
-
             <small>POST OF THE DAY</small>
-
             <h2>
                 Melvin Gordon is making <br>
                 the right decision walking <br>
                 away from the Chargers
             </h2>
-
             <div class="author">
                 <img src="./img/AuthorAvatar.svg">
                 <p>By Gabe Sheber • Mar. 28, 2020</p>
@@ -62,7 +64,6 @@
                 <button>NHL</button>
                 <button>SOCCER</button>
             </div>
-
             <div class="news-card">
                 <img src="./img/Mask Group (1) copy.png">
                 <div>
@@ -191,7 +192,6 @@
                 </p>
             </div>
         </div>
-
         <div class="card">
             <img src="./img/Rectangle 57 (1).svg" alt="">
             <div class="info">
@@ -206,7 +206,6 @@
                 </p>
             </div>
         </div>
-
         <div class="card">
             <img src="./img/Rectangle 57.svg" alt="">
             <div class="info">
@@ -220,7 +219,6 @@
     </div>
     </section>
     <section class="stories">
-
     <div class="heade">
         <div>
             <span class="subtitless">BLOGGER STORIES</span>
@@ -230,14 +228,10 @@
         <div class="avatars">
             <img class="active" src="./img/2596531 1.png">
             <img src="./img/Rectangle 57.svg">
-            <img src="./img/Rectangle 57.svg">
         </div>
     </div>
-
     <div class="story-card">
-
         <div class="overlay"></div>
-
         <div class="conten">
             <div class="quote">
                 <i class="fa-solid fa-quote-left"></i>
@@ -255,9 +249,26 @@
             </div>
         </div>
         <button class="play-btn">
-            <img src="./img/Polygon 1.svg" alt="">
+            <a href="https://www.youtube.com/watch?v=qtVUbK4wX6Q"><img src="./img/Polygon 1.svg" alt=""></a>
         </button>
     </div>
 </section>
+<footer>
+    <div class="footer">
+        <ul class="foot__ul">
+            <li class="foot__li"><a href="#"></a>ABOUT</li>
+            <li class="foot__li"><a href="#"></a>CONTACT US</li>
+            <li class="foot__li"><a href="#"></a>HELP</li>
+            <li class="foot__li"><a href="#"></a>LEGAL</li>
+            <li class="foot__li"><a href="#"></a>STORE</li>
+        </ul>
+        <div class="foot__imgs">
+            <img src="./img/Instagram icon.svg" alt="">
+            <img src="./img/Twitter icon.svg" alt="">
+            <img src="./img/Facebook icon.svg" alt="">
+        </div>
+        <p class="footer__P">© 2020 Sportsblog.com A GoBlog Site</p>
+    </div>
+</footer>
 </body>
 </html>
